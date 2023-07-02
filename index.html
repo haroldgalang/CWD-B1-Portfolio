@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@100&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body class="grey darken-4 white-text text-darken-3">
+    <!-- Preloader -->
+    <div id="preloader" class="center">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- front page parallax -->
+    <div class="parallax-container z-depth-2"> 
+        <div class="row">
+            <div class="col s12"><br>
+                <button class="btn-floating transparent tooltipped white-text" data-tooltip="Music for better user experience" id="musicEnable"><i class="fa-solid fa-volume-xmark"></i></button>
+                <button class="btn-floating transparent tooltipped white-text" data-tooltip="Music for better user experience" id="musicDisable"><i class="fa-solid fa-volume-low"></i></i></button>
+                <audio id='bgMusic' src="audio/øneheart - this feeling.wav"></audio>
+            </div>
+        </div>
+        <div class="parallax">
+            <section class="fog">
+                <div class="absolute-bg"></div>
+                <div class="fog-container">
+                    <div class="fog-img fog-img-first"></div>
+                    <div class="fog-img fog-img-second"></div>
+                </div>
+            </section>
+            <img src="images/FoggyPines.jpg" alt="" style="margin-top: 10px; width: 100%; height: auto;">
+        </div>
+
+        <!-- Title Header -->
+        <div class="row">
+            <div class="col s8 offset-l2">
+                <h1 style="font-family: Archivo Black; align-items: center; justify-content: center; letter-spacing: 3px;">Nostalgic Studio.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Welcome Page -->
+    <section class="z-depth-2">
+        <div class="container">
+            <h3 style="font-family: Roboto;">Welcome to</h3>
+            <h4 style="font-family: Archivo Black; letter-spacing: 2px;">Nostalgic Studio.</h4>
+            <h6 style="font-family: Roboto;">jump into this place to capture nostalgic mood and a cozy feeling. Please enjoy your stay.</h6>
+            <br><br>
+            <div class="row">
+                <div class="col s4 offset-l8">
+                    <a href="#blue" class="btn blue-grey darken-4 white-text hoverable" id="explore-btn">Explore  <i class="fa-solid fa-arrow-down-wide-short"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Page -->
+    <section id="blue" class="block scrollspy grey darken-4">
+        <nav class="pushpin-demo-nav" data-target="blue" style="z-index: 10;">
+            <div class="nav-wrapper blue-grey darken-4 z-depth-3">
+                <div class="container">
+                    <a href="#!" class="brand-logo" style="font-family: Archivo Black; align-items: center; justify-content: center; letter-spacing: 3px;">Nostalgic Studio.</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#playlist">Top playlist</a>
+                        </li>
+                        <li>
+                            <a href="#myMusic">My music</a>
+                        </li>
+                        <li>
+                            <a href="#reach-out">Support us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section></section>
+
+        <!-- parallax 1 -->
+        <section class="parallax-container z-depth-3" style="z-index: 1;">
+            <div class="parallax">
+                <section class="fog">
+                    <div class="absolute-bg"></div>
+                    <div class="fog-container">
+                        <div class="fog-img fog-img-first"></div>
+                    </div>
+                </section>
+                <img src="images/Rain.jpg" alt="" style="margin-top: 10px; width: 100%; height: auto;">
+            </div>
+        </section>
+
+        <!-- top playlist section -->
+        <section class="container section scrollspy" id="playlist">
+            <div class="row">
+                <div class="col s12 l7">
+                    <h3 style="font-family: Archivo Black; letter-spacing: 2px;">top playlist</h3>
+                    <h6 style="font-family: Roboto;">Here is my top 4 music in different genres. You may support these artists as well.</h6>
+                </div>
+            </div>
+            <br><br>
+            <div class="divider grey darken-1"></div>
+
+            <!-- top playlist content -->
+            <!-- Dark Ambient -->
+            <h4>Dark Ambient Music</h4>
+            <h6 style="font-family: Roboto;">Often recognize as gloomy, atmospheric, sad, lonely type of music. Despite of having that distinctive music traits, it brings listener more time to do something in peace such as meditate or just relax or maybe sleep.</h6><br>
+            <div class="row">
+                <div class="col s12 m8 l3">
+                    <img src="images/track-images/øneheart x reidenshi - snowfall.jpg" alt="" class="materialboxed responsive-img" data-caption="øneheart x reidenshi - snowfall">  
+                    <h6 class="truncate center">øneheart x reidenshi - snowfall</h6>
+                </div>
+                <div class="col s12 m8 l3">
+                    <img src="images/track-images/øneheart - this feeling.jpg" alt="" class="materialboxed responsive-img" data-caption="øneheart - this feeling">
+                    <h6 class="truncate center">øneheart - this feeling</h6>  
+                </div>
+                <div class="col s12  m8 l3">
+                    <img src="images/track-images/instupendo - comfort chain.jpg" alt="" class="materialboxed responsive-img" data-caption="instupendo - comfort chain">
+                    <h6 class="truncate center">instupendo - comfort chain</h6> 
+                </div>
+                <div class="col s12  m8 l3">
+                    <img src="images/track-images/øneheart x antent - rain inside.jpg" alt="" class="materialboxed responsive-img" data-caption="øneheart x antent - rain inside">
+                    <h6 class="truncate center">øneheart x antent - rain inside</h6>   
+                </div>
+            </div>
+            <div class="divider grey darken-1"></div>
+
+            <!-- Lo-fi/Chill Hiphop -->
+            <h4>Lo-fi/Chill Hiphop Music</h4>
+            <h6 style="font-family: Roboto;">This genre have the relaxation can give to the listeners. It oftenly compose of minimal sounds with jazz chords and really nice hiphop drum patterns.</h6><br>
+            <div class="row">
+                <div class="col s12 m8 l3">
+                    <img src="images/track-images/Nujabes - Feather (feat. Cise Starr & Akin).jpg" alt="" class="materialboxed responsive-img" data-caption="øneheart x reidenshi - snowfall">  
+                    <h6 class="truncate center">Nujabes - Feather (feat. Cise Starr & Akin)</h6>
+                </div>
+                <div class="col s12 m8 l3">
+                    <img src="images/track-images/Jon Kyoto - A Promised Neverland (feat. Hanari).jpg" alt="" class="materialboxed responsive-img" data-caption="øneheart - this feeling">
+                    <h6 class="truncate center">Jon Kyoto - A Promised Neverland (feat. Hanari)/h6>
+                </div>
+                <div class="col s12  m8 l3">
+                    <img src="images/track-images/Nujabes - Battlecry (feat. Shing02).jpg" alt="" class="materialboxed responsive-img" data-caption="instupendo - comfort chain">
+                    <h6 class="truncate center">Nujabes - Battlecry (feat. Shing02)</h6>
+                </div>
+                <div class="col s12  m8 l3">
+                    <img src="images/track-images/Nujabes - Battlecry (feat. Shing02).jpg" alt="" class="materialboxed responsive-img" data-caption="øneheart x antent - rain inside">
+                    <h6 class="truncate center">Nujabes - Shiki No Uta (feat. MINMI)</h6>
+                </div>
+            </div>
+        </section>
+
+        <!-- parallax 2-->
+        <section class="parallax-container z-depth-3" style="z-index: 1;">
+            <div class="parallax">
+                <section class="fog">
+                    <div class="absolute-bg"></div>
+                    <div class="fog-container">
+                        <div class="fog-img fog-img-first"></div>
+                    </div>
+                </section>
+                <img src="images/MorningFog.jpg" alt="" style="margin-top: 10px; width: 100%; height: auto;">
+            </div>
+        </section>
+
+        <!-- my music section -->
+        <section class="container section scrollspy" id="myMusic">
+            <div class="row">
+                <div class="col s12 l8">
+                    <h3 style="font-family: Archivo Black; letter-spacing: 2px;">My music</h3>
+                    <h6 style="font-family: Roboto;">I produce music as well just for my hobby and some of my produced music are posted on my socials. Check out my works here.</h6>
+                </div>
+            </div>
+            <br><br>
+            <div class="divider grey darken-1"></div><br>
+
+            <!-- my music content -->
+            <div class="row">
+                <!-- embedded youtube content -->
+                <h4>YouTube</h4>
+                <h6 style="font-family: Roboto;">Here's my content from my YouTube channel.</h6>
+                <div class="col s12 l6">
+                    <div class="video-container">
+                        <iframe width="2400" height="1350" src="https://www.youtube.com/embed/t_9colpeZYg" title="NoisyIntrovert - In case ft. Shiloh Dynasty" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
+                    <h6 class="truncate center">NoisyIntrovert - In case ft. Shiloh Dynasty</h6>
+                </div>
+                <div class="col s12 l6">
+                    <div class="video-container">
+                        <iframe width="2400" height="1350" src="https://www.youtube.com/embed/RCh9wk56Qs0" title="Yoru ni Kakeru." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <h6 class="truncate center">Yoru ni Kakeru (NiVert edit)</h6>
+                </div>
+                <div class="col s12">
+                    <br><div class="divider grey darken-1"></div><br>
+                </div>
+
+                <!-- embedded soundcloud content -->
+                <h4>SoundCloud</h4>
+                <h6 style="font-family: Roboto;">I often post my music here in SoundCloud.</h6><br>
+                <div class="col s12">
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1498399030&color=%2314161f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/noisy-introvert" title="NiVertzxc" target="_blank" style="color: #cccccc; text-decoration: none;">NiVertzxc</a> · <a href="https://soundcloud.com/noisy-introvert/state-of-the-nation-x-20-deep" title="State Of The Nation X 20 Deep" target="_blank" style="color: #cccccc; text-decoration: none;">State Of The Nation X 20 Deep</a></div>
+                </div>
+                <div class="col s12">
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1250714944&color=%2314161f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/noisy-introvert" title="NiVertzxc" target="_blank" style="color: #cccccc; text-decoration: none;">NiVertzxc</a> · <a href="https://soundcloud.com/noisy-introvert/jid-surround-sound-feat-21-savage-baby-tate-nivert-flip" title="Surround Sound (Flip)" target="_blank" style="color: #cccccc; text-decoration: none;">Surround Sound (Flip)</a></div>
+                </div>
+                <div class="col s12">
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1171614955&color=%2314161f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/noisy-introvert" title="NiVertzxc" target="_blank" style="color: #cccccc; text-decoration: none;">NiVertzxc</a> · <a href="https://soundcloud.com/noisy-introvert/mnfstd" title="Mnfstd." target="_blank" style="color: #cccccc; text-decoration: none;">Mnfstd.</a></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- parallax 3 -->
+        <div class="parallax-container z-depth-3" style="z-index: 1;">
+            <div class="parallax">
+                <section class="fog">
+                    <div class="absolute-bg"></div>
+                    <div class="fog-container">
+                        <div class="fog-img fog-img-first"></div>
+                        <div class="fog-img fog-img-second"></div>
+                    </div>
+                </section>
+                <img src="images/RainForest.jpg" alt="" style="margin-top: 10px; width: 100%; height: auto;">
+            </div>
+        </div>
+
+        <!-- support section -->
+        <section class="container section scrollspy" id="reach-out">
+            <div class="row">
+                <div class="col s12 m10">
+                    <h2 class="grey-text">Support us/Reach us out</h2>
+                    <h6 class="grey-text text-darken-2">Check my socials and works on these channels</h6><br>
+                    <div class="row">
+                        <div class="col s1">
+                            <a href="#!"><i class="fa-brands fa-square-facebook small blue-text"></i></a>
+                        </div>
+                        <div class="col s1">
+                            <a href="#!"><i class="fa-brands fa-instagram small grey-text text-lighten-3"></i></a>
+                        </div>
+                        <div class="col s1">
+                            <a href="#!"><i class="fa-brands fa-reddit small orange-text text-darken-4"></i></a>
+                        </div>
+                        <div class="col s1">
+                            <a href="#!"><i class="fa-brands fa-twitter small blue-text"></i></a>
+                        </div>
+                        <div class="col s1">
+                            <a href="#!"><i class="fa-brands fa-soundcloud small orange-text text-darken-1"></i></a>
+                        </div>
+                        <div class="col s1">
+                            <a href="#!"><i class="fa-brands fa-youtube small red-text text-lighten-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+</section>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Preload CDN -->
+    <script src="https://code.createjs.com/1.0.0/preloadjs.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
