@@ -34,16 +34,20 @@ html, body, .block {
     z-index: 5;
 }
 
+#welcome-page {
+    height: 40%;
+}
+
 #explore-btn {
     font-family: Roboto;
     font-size: large;
     letter-spacing: 4px;
     position: absolute;
-    margin-top:-165px;
     padding-right: 100px;
     padding-left: 100px;
     padding-top: 20px;
     padding-bottom: 50px;
+    margin-top: 45px;
     z-index: 5;
     
 }
