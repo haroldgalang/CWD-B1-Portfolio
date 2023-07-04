@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Welcome</title>
 </head>
-<body class="blur-grey darken-4" style="height: 100%; margin: 0; overflow: hidden;">
+<body class="blur-grey darken-4" style="height: 100%; width: 100%; margin: 0; overflow: hidden;">
 
     <div id="preloader" class="center">
         <div class="preloader-wrapper big active" style="margin-top: 300px;">
@@ -31,37 +31,47 @@
         </div>
     </div>
 
-    <div id="intro-page">
+    <section id="intro-page">
         <section class="fog">
             <div class="absolute-bg"></div>
             <div class="fog-container">
                 <div class="fog-img fog-img-first"></div>
                 <div class="fog-img fog-img-second"></div>
-            </div>
-            <img class="responsive-img" src="images/FoggyPines.jpg" alt="">
-        </section>
 
-        <div class="card-panel transparent z-depth-4" style="font-family: roboto; border-radius: 25px; margin: 100px; margin-top: -630px; position: relative">
-            <div class="row valign-wrapper">
-                <div class="col s3">
-                    <img src="images/myface.png" alt="" class="circle grey responsive-img z-depth-5" style="border-style: solid;">
-                </div>
-                <div class="col s9">
-                    <div class="white-text">
-                        <h3 style="font-family: Roboto; font-weight: bold;">Harold Galang</h3>
-                        <h5 class="grey-text text-lighten-1">Web Designer</h5>
-                        <div class="divider grey darken-1"></div>
-                        <p style="letter-spacing: 1px;">Hello! My name is Harold Galang and I go for my alias as NoisyIntrovertZXC or NiVertXZC in short. I love any digital works and digital arts such as 3D modeling or animation, photo edting, graphic designing, video editing and more. Although I haven't started doing some of those works for now, as an aspiring music producer I am currently focusing on producing music through DAW or Digital Audio Workstation practicing my self, doing it as just part of my hobby and doing it full time will be my plan in the future. Other than that, I also focusing more about programming since I'm currently studying in college for BSIT or Batchelor of Science in Information Technology. I am very pleased and you're welcome to visit my porfolio website and tour yourself to see my showcased works </p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel transparent z-depth-4 centered" style="font-family: Roboto; border-radius: 25px;">
+                                <div class="row valign-wrapper">
+                                    <div class="col s3">
+                                        <img src="images/myface.png" alt="" class="circle grey responsive-img z-depth-5" style="border-style: solid;">
+                                    </div>
+                                    <div class="col s9">
+                                        <div class="white-text">
+                                            <div class="row">
+                                                <div class="col s12 l6">
+                                                    <h3 style="font-family: Roboto; font-weight: bold;">Harold Galang</h3>
+                                                    <h5 class="grey-text text-lighten-1">Web Designer</h5>    
+                                                </div>
+                                                <div class="col s12 l6" style="display: flex; align-items: center; height: 150px;">
+                                                    <a href="main.html" class="btn transparent white-text hoverable center" id="btn-enterWeb">Enter my Website</a>
+                                                </div>
+                                            </div>
+                                            <div class="divider grey darken-1"></div>
+                                            <p style="letter-spacing: 1px;">Hello! My name is Harold Galang and I go for my alias as NoisyIntrovertZXC or NiVertXZC in short. I love any digital works and digital arts such as 3D modeling or animation, photo edting, graphic designing, video editing and more. Although I haven't started doing some of those works for now, as an aspiring music producer I am currently focusing on producing music through DAW or Digital Audio Workstation practicing my self, doing it as just part of my hobby and doing it full time will be my plan in the future. Other than that, I also focusing more about programming since I'm currently studying in college for BSIT or Batchelor of Science in Information Technology. I am very pleased and you're welcome to visit my porfolio website and tour yourself to see my showcased works </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
+
             </div>
-            <div class="row">
-                <div class="col s1 offset-l7">
-                    <a href="main.html" class="btn transparent white-text hoverable" id="btn-enterWeb">Enter my Website</a>
-                </div>
-            </div>
-        </div>
-    </div>
+            <img class="responsive-img" src="images/FoggyPines.jpg" alt="" style="width: 100%; height: 100%;">
+        </section>
+    </section>
     
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

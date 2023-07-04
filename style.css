@@ -23,15 +23,15 @@ html, body, .block {
 
 #btn-enterWeb {
     position: absolute;
-    font-size: large;
     font-weight: bold;
     letter-spacing: 3px;
-    margin-top:-335px;
-    padding-right: 100px;
-    padding-left: 100px;
-    padding-top: 20px;
-    padding-bottom: 50px;
+    padding: 20px 43px 50px 43px;
     z-index: 5;
+}
+
+#intro-page {
+    height: 100%;
+    width: 100%;
 }
 
 #welcome-page {
@@ -64,6 +64,8 @@ html, body, .block {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    display: flex;
+    align-items: center;
     z-index: 1;
 }
 
