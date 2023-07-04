@@ -54,6 +54,8 @@ html, body, .block {
 
 .fog {
     position: relative;
+    display: flex;
+    align-items: center;
     height: 100vh;
     width: 100%;
     margin-bottom: 100px;
